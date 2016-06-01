@@ -1,0 +1,28 @@
+uuid: ac5d5b77-9f18-456b-a122-3474d133565c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.elder.body
+    - field.field.node.elder.field_image
+    - node.type.elder
+  module:
+    - text
+    - user
+id: node.elder.teaser
+targetEntityType: node
+bundle: elder
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_image: true

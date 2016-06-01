@@ -1,0 +1,8 @@
+uuid: edf9c3b7-f16f-46bb-be00-ed907851b386
+langcode: en
+status: true
+dependencies: {  }
+id: comment_forum
+label: Comment_forum
+target_entity_type_id: node
+description: 'Default comment field'

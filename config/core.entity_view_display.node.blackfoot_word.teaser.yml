@@ -1,0 +1,21 @@
+uuid: 252f3df4-9182-4b71-9a00-ad4bd03d31b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blackfoot_word.field_audio
+    - field.field.node.blackfoot_word.field_translation
+    - node.type.blackfoot_word
+  module:
+    - user
+id: node.blackfoot_word.teaser
+targetEntityType: node
+bundle: blackfoot_word
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_audio: true
+  field_translation: true

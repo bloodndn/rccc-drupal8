@@ -1,0 +1,19 @@
+uuid: 66e2506d-ea3c-4dd6-8d00-bd3af3e3cc09
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_banner_image
+    - node.type.landing_page
+  module:
+    - user
+id: node.landing_page.teaser
+targetEntityType: node
+bundle: landing_page
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_banner_image: true

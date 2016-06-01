@@ -1,0 +1,6 @@
+uuid: 2c8f9bc9-d18e-49cc-b000-d1e69e971e6d
+langcode: en
+status: true
+dependencies: {  }
+id: landing_promo
+label: 'Landing Promo'

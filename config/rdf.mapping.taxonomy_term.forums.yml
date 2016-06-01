@@ -1,0 +1,21 @@
+uuid: 75ad2810-a107-4b45-9902-2f31f2c28ab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+  module:
+    - taxonomy
+id: taxonomy_term.forums
+targetEntityType: taxonomy_term
+bundle: forums
+types:
+  - 'sioc:Container'
+  - 'sioc:Forum'
+fieldMappings:
+  name:
+    properties:
+      - 'schema:name'
+  description:
+    properties:
+      - 'schema:description'

@@ -1,0 +1,30 @@
+uuid: 585d0e80-6e70-4464-ae03-3d7b8f4386de
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.elders
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__elders_block_1
+theme: bartik
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:elders-block_1'
+settings:
+  id: 'views_block:elders-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /kaahsinnooni
+    negate: false
+    context_mapping: {  }

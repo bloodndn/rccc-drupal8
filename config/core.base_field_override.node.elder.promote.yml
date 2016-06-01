@@ -1,0 +1,22 @@
+uuid: 817e7d86-62c7-4b62-8a00-ead1c3ce3afc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.elder
+id: node.elder.promote
+field_name: promote
+entity_type: node
+bundle: elder
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

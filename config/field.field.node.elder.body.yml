@@ -1,0 +1,22 @@
+uuid: 6dc9c6e0-5dfb-4394-a300-d5cffc806b22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.elder
+  module:
+    - text
+id: node.elder.body
+field_name: body
+entity_type: node
+bundle: elder
+label: 'Elder Profile'
+description: 'Elder Profile'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

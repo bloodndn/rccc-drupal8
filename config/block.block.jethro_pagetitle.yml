@@ -1,0 +1,18 @@
+uuid: 6d858e7c-29fe-4908-8105-5e190ec16ebc
+langcode: en
+status: false
+dependencies:
+  theme:
+    - jethro
+id: jethro_pagetitle
+theme: jethro
+region: '-1'
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Information Overload'
+  provider: core
+  label_display: '0'
+visibility: {  }

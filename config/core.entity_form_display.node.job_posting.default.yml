@@ -1,0 +1,76 @@
+uuid: 411b3b6f-4b43-44b5-a600-dac1fb1be923
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.job_posting.body
+    - field.field.node.job_posting.field_application_deadline
+    - field.field.node.job_posting.field_pdf_file
+    - node.type.job_posting
+  module:
+    - datetime
+    - file
+    - path
+    - text
+id: node.job_posting.default
+targetEntityType: node
+bundle: job_posting
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_application_deadline:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_pdf_file:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 1701c03f-0c1b-426b-a500-0d42c0225763
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blackfoot_word
+id: node.blackfoot_word.title
+field_name: title
+entity_type: node
+bundle: blackfoot_word
+label: Word
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

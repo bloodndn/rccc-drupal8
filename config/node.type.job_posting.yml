@@ -1,0 +1,17 @@
+uuid: 416221a8-9f81-4d6f-a65e-94ef17b0652f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Job Posting'
+type: job_posting
+description: 'This is where job postings will go.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

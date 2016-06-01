@@ -1,0 +1,30 @@
+uuid: 22090fd5-1df0-42ba-b200-c8c97581157f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promo_blocks
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.landing_promo
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_promo_blocks
+field_name: field_promo_blocks
+entity_type: node
+bundle: landing_page
+label: 'Promo Blocks'
+description: 'Promo Block for Landing Page'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      landing_promo: landing_promo
+    target_bundles_drag_drop:
+      landing_promo:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

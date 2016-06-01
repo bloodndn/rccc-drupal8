@@ -1,0 +1,67 @@
+uuid: 3f4ff300-a72e-40db-9300-d0f51d8c2fc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blackfoot_word.field_audio
+    - field.field.node.blackfoot_word.field_translation
+    - node.type.blackfoot_word
+  module:
+    - file
+    - path
+id: node.blackfoot_word.default
+targetEntityType: node
+bundle: blackfoot_word
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_audio:
+    weight: 33
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  field_translation:
+    weight: 32
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

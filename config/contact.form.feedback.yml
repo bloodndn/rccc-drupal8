@@ -1,0 +1,10 @@
+uuid: ae9889ce-607c-4b8c-a109-9b9725e6f738
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - admin@kainaissini.com
+reply: ''
+weight: 0

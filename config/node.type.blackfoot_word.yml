@@ -1,0 +1,17 @@
+uuid: d8f01a76-931f-4bb7-8331-49ae1c7356d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Blackfoot word'
+type: blackfoot_word
+description: 'This is the Blackfoot word added to the Blackfoot dictionary with an English translation for reference.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

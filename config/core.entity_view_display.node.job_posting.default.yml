@@ -1,0 +1,44 @@
+uuid: d6411f66-6fcb-4a0b-9a00-0d530b4a098d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.job_posting.body
+    - field.field.node.job_posting.field_application_deadline
+    - field.field.node.job_posting.field_pdf_file
+    - node.type.job_posting
+  module:
+    - datetime
+    - file
+    - text
+    - user
+id: node.job_posting.default
+targetEntityType: node
+bundle: job_posting
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_application_deadline:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    type: datetime_default
+  field_pdf_file:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

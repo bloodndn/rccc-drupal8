@@ -1,0 +1,19 @@
+uuid: 62f25874-cc34-4b79-ba53-832216f2e181
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_promo_text
+    - paragraphs.paragraphs_type.landing_promo
+id: paragraph.landing_promo.field_promo_text
+field_name: field_promo_text
+entity_type: paragraph
+bundle: landing_promo
+label: 'Promo Text'
+description: 'Promo Text for Landing Pages'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

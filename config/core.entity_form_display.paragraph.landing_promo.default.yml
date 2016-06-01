@@ -1,0 +1,50 @@
+uuid: 0a41f50c-7043-4594-8b00-b29ca4b84b5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_promo.field_promo_image
+    - field.field.paragraph.landing_promo.field_promo_link
+    - field.field.paragraph.landing_promo.field_promo_text
+    - field.field.paragraph.landing_promo.field_promo_title
+    - paragraphs.paragraphs_type.landing_promo
+  module:
+    - image
+    - link
+id: paragraph.landing_promo.default
+targetEntityType: paragraph
+bundle: landing_promo
+mode: default
+content:
+  field_promo_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_promo_link:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_promo_text:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  field_promo_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden:
+  created: true
+  status: true
+  uid: true

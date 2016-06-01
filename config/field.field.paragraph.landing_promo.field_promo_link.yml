@@ -1,0 +1,23 @@
+uuid: bec09176-cc0d-457f-b91c-28970d2e8d9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_promo_link
+    - paragraphs.paragraphs_type.landing_promo
+  module:
+    - link
+id: paragraph.landing_promo.field_promo_link
+field_name: field_promo_link
+entity_type: paragraph
+bundle: landing_promo
+label: 'Promo Link'
+description: 'Promo Link for Landing Pages'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

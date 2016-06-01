@@ -1,0 +1,19 @@
+uuid: f0bec589-4b0e-45dd-ab06-6fa8b828f8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_translation
+    - node.type.blackfoot_word
+id: node.blackfoot_word.field_translation
+field_name: field_translation
+entity_type: node
+bundle: blackfoot_word
+label: Translation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

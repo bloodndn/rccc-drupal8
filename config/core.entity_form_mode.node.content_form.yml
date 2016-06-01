@@ -1,0 +1,10 @@
+uuid: f8ee1fb3-57ea-44a9-8902-2f3afce146f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.content_form
+label: Content-form
+targetEntityType: node
+cache: true

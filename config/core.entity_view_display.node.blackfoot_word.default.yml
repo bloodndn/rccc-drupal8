@@ -1,0 +1,34 @@
+uuid: fe9fc505-65b1-4f59-9d00-f4aa0f68fbd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blackfoot_word.field_audio
+    - field.field.node.blackfoot_word.field_translation
+    - node.type.blackfoot_word
+  module:
+    - audiofield
+    - user
+id: node.blackfoot_word.default
+targetEntityType: node
+bundle: blackfoot_word
+mode: default
+content:
+  field_audio:
+    weight: 103
+    label: hidden
+    settings:
+      audio_player: default_mp3_player
+    third_party_settings: {  }
+    type: audiofield_audioplayer
+  field_translation:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

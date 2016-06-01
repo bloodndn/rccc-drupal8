@@ -1,0 +1,12 @@
+uuid: 7ba93e0a-b07a-4cf0-9400-b472b930ee99
+name: kainaissini.com
+mail: admin@kainaissini.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

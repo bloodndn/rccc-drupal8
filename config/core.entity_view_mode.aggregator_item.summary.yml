@@ -1,0 +1,10 @@
+uuid: 09c75fb2-6364-4609-9300-bd5df1fedf5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggregator
+id: aggregator_item.summary
+label: Summary
+targetEntityType: aggregator_item
+cache: true

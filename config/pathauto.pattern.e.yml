@@ -1,0 +1,22 @@
+uuid: e632795c-b619-43d9-8f00-a37103e8c0a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: e
+label: 'Elder Path'
+type: 'canonical_entities:node'
+pattern: '/elders/[node:title]'
+selection_criteria:
+  5dc749ee-e898-4654-aa00-f5950e5217f8:
+    id: node_type
+    bundles:
+      elder: elder
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 5dc749ee-e898-4654-aa00-f5950e5217f8
+selection_logic: and
+weight: -5
+relationships: {  }

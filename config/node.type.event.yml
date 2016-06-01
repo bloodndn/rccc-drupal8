@@ -1,0 +1,17 @@
+uuid: d054aa26-071a-4d06-ae05-5c6d00f7317c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'New events as they happen...'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

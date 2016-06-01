@@ -1,0 +1,18 @@
+uuid: 82b8bbed-2d31-465b-8a00-a4ec6792da58
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bartik
+id: pagetitle
+theme: bartik
+region: '-1'
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Information Overload'
+  provider: core
+  label_display: '0'
+visibility: {  }
