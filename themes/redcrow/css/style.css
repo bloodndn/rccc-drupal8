@@ -1,0 +1,183 @@
+/**
+ * Place your custom styles here.
+ */
+/* General HTML Stylings*/
+a {
+   color: #dd2c27;
+}
+/*Header placement of logo*/
+.navbar-brand {
+  background: url(../images/logo-rc.svg) no-repeat left center;
+  background-size: 50px;
+  padding-left: 80px;
+}
+h1.page-header {
+  color: white; /*if I get a dark image I can change this color for the Sky-image*/
+}
+.page-node-type-landing-page h1.page-header {
+  border-bottom: none;
+  color: white;
+}
+body {
+  font-family: "open sans";
+  }
+#block-redcrow-secondarynavigation li {
+  display: inline-block;
+}
+#block-redcrow-secondarynavigation ul {
+  text-align: right;
+}
+.header-wrapper {
+  margin-top: 40px;
+  margin-bottom: 2em;
+  background-size: cover;
+  padding: 3em 0 0.5em 0; /* <- top right bottom left*/
+  background-image: url(../images/Sky.png);
+}
+.page-node-type-landing-page .header-wrapper {
+  padding: 3em 0;
+}
+/* Promo Blocks View*/
+.view-promo-blocks {
+  margin-top: 2em;
+}
+.view-promo-blocks .views-field-nothing {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.view-promo-blocks .promo-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+}
+.view-promo-blocks .promo-link {
+  margin-top: 20px;
+}
+.view-promo-blocks .promo-link a {
+  padding: 5px 10px;
+  background-color: #dd2c27;
+  color: #fff;
+}
+/*Footer Wrapper Magic*/
+.footer-wrapper {
+  background: #dd2c27;
+  color: #fff;
+}
+.footer ul.menu li {
+  display: inline-block;
+}
+.footer a {
+  color: #fff;
+}
+.footer ul.menu li a:hover {
+  background: #000;
+}
+#block-contactinformation {
+  background: url(../images/logo-rc.svg) no-repeat left center;
+  background-size: 80px;
+  padding-left: 100px;
+}
+.navbar-header {
+  float: none;
+}
+.region-navigation-secondary ul {
+  line-height: 30px
+}
+.region-navigation-secondary a {
+  color: #dd2c27;
+}
+.region-navigation-collapsible a {
+  font-weight: bold;
+  color: #000;
+}
+#block-redcrow-secondarynavigation li:last-child {
+  background: #dd2c27;
+}
+#block-redcrow-secondarynavigation li:last-child a {
+  color: #fff;
+}
+@media screen and (min-width: 761px) {
+    .footer #block-secondarynavigation-2 {
+      display: none;
+    }
+    .page-node-type-landing-page .header-wrapper {
+      padding: 17em 0;
+    }
+     .region-content,
+     .path-blackfoot-dictionary .region-highlighted {
+      margin: 0 150px;
+    }
+     .path-events .region-content,
+     .path-news .region-content,
+    .page-node-type-landing-page .region-content {
+      margin: 0;
+    }
+     h1.page-header {
+      margin: 0 150px;
+    }
+    .page-node-type-landing-page h1.page-header {
+      font-size: 5em;
+      margin: 0em;
+    }
+    .path-events h1.page-header,
+    .path-news h1.page-header {
+      margin: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+  #block-redcrow-secondarynavigation {
+    display: none;
+    }
+    .navbar-brand {
+      padding: 5px 0 5px 60px;
+      max-width: 230px;
+    }
+}
+.view-promo-blocks .views-row {
+  margin-bottom: 1em;
+}
+/*News and Events and Elders Stylings*/
+.view-events .views-field-title,
+.view-news .views-field-title {
+  font-size: 1.2em;
+}
+.view-events .views-row,
+.view-elders .views-row,
+.view-news .views-row {
+  margin-bottom: 1em;
+}
+/*Node Styling*/
+.author {
+  margin-bottom: 1em;
+}
+/*Careers Stylings*/
+.view-careers {
+  border-top: 1px solid #ddd;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+/*Elders Stylings*/
+.field--name-field-image {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+/*Button Stylings*/
+.btn-info {
+  background-color: #dd2c27;
+  border-color: #dd2c27;
+}
+.btn:hover {
+ background-color: #000;
+}
+.views-exposed-form {
+  margin-bottom: 2em;
+}
+
