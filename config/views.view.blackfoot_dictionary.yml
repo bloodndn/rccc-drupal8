@@ -334,8 +334,8 @@ display:
           exposed: true
           expose:
             operator_id: keys_op
-            label: 'Search for Blackfoot Terms'
-            description: ''
+            label: 'Search Blackfoot Dictonary'
+            description: 'Search for Blackfoot Terms'
             use_operator: false
             operator: keys_op
             identifier: keys
@@ -406,6 +406,7 @@ display:
         type: normal
         title: 'Blackfoot Dictionary'
         menu_name: main
+      exposed_block: true
     cache_metadata:
       max-age: 0
       contexts:

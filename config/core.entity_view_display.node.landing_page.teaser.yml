@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.landing_page.field_banner_image
+    - field.field.node.landing_page.field_promo_blocks
     - node.type.landing_page
   module:
     - user
@@ -17,3 +18,4 @@ content:
     weight: 100
 hidden:
   field_banner_image: true
+  field_promo_blocks: true

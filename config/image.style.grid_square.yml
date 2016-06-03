@@ -1,0 +1,14 @@
+uuid: 325d54bb-71db-4b3c-8a00-f8306da6da64
+langcode: en
+status: true
+dependencies: {  }
+name: grid_square
+label: 'Grid Square'
+effects:
+  ab49656c-9364-4bec-bb00-ca5a6c748136:
+    uuid: ab49656c-9364-4bec-bb00-ca5a6c748136
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 800

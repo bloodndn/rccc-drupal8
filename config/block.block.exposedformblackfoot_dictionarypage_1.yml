@@ -1,0 +1,29 @@
+uuid: ccaf9e0f-6f70-4fbb-b900-003de2412fc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blackfoot_dictionary
+  module:
+    - system
+    - views
+  theme:
+    - redcrow
+id: exposedformblackfoot_dictionarypage_1
+theme: redcrow
+region: highlighted
+weight: -11
+provider: null
+plugin: 'views_exposed_filter_block:blackfoot_dictionary-page_1'
+settings:
+  id: 'views_exposed_filter_block:blackfoot_dictionary-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/blackfoot-dictionary"
+    negate: false
+    context_mapping: {  }

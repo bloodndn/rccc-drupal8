@@ -1,0 +1,32 @@
+uuid: 2f344258-f33f-4fe0-9a00-ec5d04e391f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - node
+    - views
+  theme:
+    - redcrow
+id: views_block__events_block_1
+theme: redcrow
+region: content_bottom
+weight: -11
+provider: null
+plugin: 'views_block:events-block_1'
+settings:
+  id: 'views_block:events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      landing_page: landing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,20 @@
+uuid: 10b52565-7015-459b-b11c-28463372f266
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - redcrow
+id: redcrow_breadcrumbs
+theme: redcrow
+region: '-1'
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

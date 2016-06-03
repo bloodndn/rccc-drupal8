@@ -1,0 +1,18 @@
+uuid: 9f464742-7a20-45c6-8b00-fea2ad87b8e3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - redcrow
+id: redcrow_page_title
+theme: redcrow
+region: header
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

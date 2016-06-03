@@ -1,0 +1,25 @@
+uuid: 6483fb9b-f9b4-46ff-8d00-cb2684700c0c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8a25a640-fbe3-4455-8000-b608693df8ab'
+  module:
+    - block_content
+  theme:
+    - redcrow
+id: contactinformation
+theme: redcrow
+region: footer
+weight: -10
+provider: null
+plugin: 'block_content:8a25a640-fbe3-4455-8000-b608693df8ab'
+settings:
+  id: 'block_content:8a25a640-fbe3-4455-8000-b608693df8ab'
+  label: 'Contact Information'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

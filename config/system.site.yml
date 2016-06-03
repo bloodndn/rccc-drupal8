@@ -1,11 +1,11 @@
 uuid: 7ba93e0a-b07a-4cf0-9400-b472b930ee99
-name: kainaissini.com
+name: 'Red Crow Community College'
 mail: admin@kainaissini.com
-slogan: ''
+slogan: 'Your Learning Journey Starts Here'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/11
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

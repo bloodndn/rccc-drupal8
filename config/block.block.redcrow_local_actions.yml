@@ -1,0 +1,18 @@
+uuid: 8fca36c6-db7b-408b-a801-1ed5cdac6520
+langcode: en
+status: true
+dependencies:
+  theme:
+    - redcrow
+id: redcrow_local_actions
+theme: redcrow
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: 219bc560-ec36-48a1-8c00-e34b6efa81f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.elders
+  module:
+    - system
+    - views
+  theme:
+    - redcrow
+id: redcrow_views_block__elders_block_1
+theme: redcrow
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:elders-block_1'
+settings:
+  id: 'views_block:elders-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /kaahsinnooni
+    negate: false
+    context_mapping: {  }

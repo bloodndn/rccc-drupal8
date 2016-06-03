@@ -1,0 +1,10 @@
+uuid: 86c3d92c-e595-4c69-8118-249d1eb966dc
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'Contact Form'
+recipients:
+  - nealshade@gmail.com
+reply: ''
+weight: 0

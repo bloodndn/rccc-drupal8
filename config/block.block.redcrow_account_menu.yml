@@ -1,0 +1,24 @@
+uuid: f2f99122-4cf0-4189-8700-0b24c783e6c9
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - redcrow
+id: redcrow_account_menu
+theme: redcrow
+region: '-1'
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
